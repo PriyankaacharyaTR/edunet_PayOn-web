@@ -10,8 +10,8 @@ import Login from './pages/Login';
 function App() {
   return (
     <Auth0Provider
-      domain="dev-uk8zv64tqrsve4yr.us.auth0.com"
-      clientId="o7Sqhr7YaMYSELbNk8S1dtcEoH6026lf"
+      domain="domain"
+      clientId="clientid"
       authorizationParams={{
         redirect_uri: window.location.origin
       }}
